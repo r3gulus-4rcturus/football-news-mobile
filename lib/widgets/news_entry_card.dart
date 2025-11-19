@@ -33,7 +33,7 @@ class NewsEntryCard extends StatelessWidget {
                 ClipRRect(
                   borderRadius: BorderRadius.circular(6),
                   child: Image.network(
-                    'http://127.0.0.1:8000/proxy-image/?url=${Uri.encodeComponent(news.thumbnail)}',
+                    'https://muhammad-lanang-footballnews.pbp.cs.ui.ac.id/proxy-image/?url=${Uri.encodeComponent(news.thumbnail)}',
                     height: 150,
                     width: double.infinity,
                     fit: BoxFit.cover,

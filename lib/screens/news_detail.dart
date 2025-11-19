@@ -28,7 +28,7 @@ class NewsDetailPage extends StatelessWidget {
             // Thumbnail image
             if (news.thumbnail.isNotEmpty)
               Image.network(
-                'http://127.0.0.1:8000/proxy-image/?url=${Uri.encodeComponent(news.thumbnail)}',
+                'https://muhammad-lanang-footballnews.pbp.cs.ui.ac.id/proxy-image/?url=${Uri.encodeComponent(news.thumbnail)}',
                 width: double.infinity,
                 height: 250,
                 fit: BoxFit.cover,
